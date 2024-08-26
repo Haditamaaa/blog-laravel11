@@ -2,12 +2,26 @@
     <x-slot:title>{{ $title }}</x-slot:title>
     <div class="flex gap-10">
         <img src="storage/img/pict1.png" alt="Paseo Tissue" width="300">
-        <div class="">
-            <p class="mt-4 mb-4" style="text-align:justify">"Insightful Ink Artikel" appears to be a brand or entity
-                focused on providing insightful articles, likely related to a specific domain or a variety of topics.
-                Here's a breakdown of what each component of the name suggests</p>
-            <ul class="ml-6">
-                <li class="list-decimal font-bold">
+        <div
+            class="block max-w-screen p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+
+            <p class="mb-3 text-gray-500 dark:text-gray-400 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-gray-900 dark:first-letter:text-gray-100 first-letter:me-3 first-letter:float-start"
+                style="text-align:justify">
+                Insightful Ink Artikel appears to be a brand or entity focused on providing insightful articles,
+                likely
+                related to a specific domain or a variety of topics. Here's a breakdown of what each component of
+                the
+                name suggests</p>
+            <p class="text-gray-500 dark:text-gray-400">Deliver great service experiences fast - without the
+                complexity
+                of traditional ITSM solutions.Accelerate critical development work, eliminate toil, and deploy
+                changes
+                with ease, with a complete audit trail for every change.</p>
+
+            <p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology
+                acquisitions of 2021 so far, in reverse chronological order.</p>
+            <ul class="ml-6 text-gray-500 dark:text-gray-400">
+                <li class="list-decimal font-bold pt-4">
                     Insightful Ink
                 </li>
                 <ul class="list-disc">
@@ -35,6 +49,10 @@
                 </ul>
             </ul>
         </div>
+
+
+
+    </div>
     </div>
     {{-- <div class="mt-20">
         <h3 class="text-xl font-bold">Possible Focus Areas for Insightful Ink Artikel</h3>
