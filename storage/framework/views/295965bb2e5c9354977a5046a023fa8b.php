@@ -12,7 +12,7 @@
     <div class="flex gap-10">
         <img src="storage/img/pict1.png" alt="Paseo Tissue" width="300">
         <div
-            class="block max-w-screen p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            class="block max-w-screen p-6 bg-white border border-gray-200 rounded-lg shadow">
 
             <p class="mb-3 text-gray-500 dark:text-gray-400 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-gray-900 dark:first-letter:text-gray-100 first-letter:me-3 first-letter:float-start"
                 style="text-align:justify">

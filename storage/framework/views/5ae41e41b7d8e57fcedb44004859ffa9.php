@@ -16,12 +16,10 @@
                 <div class="text-center lg:py-16">
                     <h1
                         class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-                        We invest in the world’s potential
+                        Ink of Insight, Boundless Ideas
                     </h1>
                     <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400">
-                        Here at Flowbite we focus on markets where technology, innovation, and capital can unlock
-                        long-term
-                        value and drive economic growth.
+                        Explore our content rich with insights and creativity. Each piece is designed to open new horizons and provide endless ideas. Join us and see how innovative thinking can transform your perspective!
                     </p>
                     <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
                         <a href="#"
@@ -252,7 +250,7 @@
             
             <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
 
-            
+
 
         </div>
 
