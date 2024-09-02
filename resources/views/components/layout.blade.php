@@ -36,5 +36,26 @@
 
     {{-- <script src="js/script.js"></script> --}}
 </body>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const checkbox = document.querySelector('.theme-controller');
+      const currentTheme = localStorage.getItem('theme');
+
+      if (currentTheme) {
+        document.body.setAttribute('data-theme', currentTheme);
+        checkbox.checked = currentTheme === 'dark';
+      }
+
+      checkbox.addEventListener('change', () => {
+        if (checkbox.checked) {
+          document.body.setAttribute('data-theme', 'dark');
+          localStorage.setItem('theme', 'dark');
+        } else {
+          document.body.setAttribute('data-theme', 'light');
+          localStorage.setItem('theme', 'light');
+        }
+      });
+    });
+  </script>
 
 </html>
